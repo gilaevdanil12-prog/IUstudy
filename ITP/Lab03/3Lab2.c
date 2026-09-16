@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-//Function to swap values, I didnt actually need it so much, because I expected it to swap chars too, but it didnt
+//Function to swap values, I didnt actually need it so much, because I expected it to swap chars too, but it didnt work
 void swap(int *a, int *b){
     *a += *b;
     *b = *a-*b;
